@@ -74,6 +74,7 @@ Regarding the energy, we again see a smoothing out effect for a larger N, such t
 In this section, we look to vary the initial conditions of the system and see the effects of this on position, velocity, and energy of the system.
 ### Data
 We selected 3 different initial conditions for a chain of size 4 as seen in the plot below. The highest initial condition will see the chain being released from a more curved orientation whilst the lowest initial condition will have a lower center of mass due to it being released from a lesser curvature.
+
 ![Alt text](/resources/A7AC4A73A384E2638D05C40576B61613.jpg)
 
 ### Observations
@@ -123,9 +124,10 @@ It is interesting to note that the histogram looks different for the angles of t
 ### Data
 Here, we investigate the property of the system after a prolonged period of time when the system has supposedly calmed down. We look at the 100 time step moving average for each angle for a fixed time interval and compare the evolutions of 100 time step moving averages for each mass' angle.
 
-### Observations
 ![Alt text](/resources/E9F5460F2990CCCBAF2EAF987C829519.jpg)
 ![Alt text](/resources/31008923DA90E54B7EE927658FC9626C.jpg)
+
+### Observations
 It is clear hear that there are periodic swings in the 100 time step moving average of the velocity and angle for mass 10.
 
 ## Return Time
@@ -135,8 +137,10 @@ We look at the time periods in which the pendulum returns to its initial state, 
 
 ### Observations
 We display only the return times for a pendulum with 10 masses and one with 70 masses. Please refer to the appendix section 7.1 for further graphs.
+
 ![Alt text](/resources/C0362ADE016AE5705BCBDB218B5C8376.jpg)
 ![Alt text](/resources/59D97394956A0C72F877AC2DA57999F1.jpg)
+
 We see that for different number of masses, there is a clear indication of a difference between the systems on whether does the pendulum return back to the initial state multiple times or not. We see that especially for a 10-mass sytem, the system returns back to its initial state numerous times. Furthermore, we note that the first return time for all the systems look like they occur approximately at the same time.
 
 
