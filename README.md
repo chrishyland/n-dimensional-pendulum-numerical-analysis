@@ -1,6 +1,15 @@
 # n-dimensional-pendulum-numerical-analysis
 This project was for Advance Computational Mathematics (MATH3976) at the University of Sydney. It was a project based on the exploration of numerical analysis of a N-dimensional pendulum system.
 
+## Abstract
+We are given a pendulum system whereby we connect a mass to a fixed point. We then attach another mass object to the aforementioned mass object. Now suppose we repeat this process for N objects, to construct a pendulum with N mass points attached to one another. To make the calculations easier, we ignore effects such as air resistance and assume that the mass of each object is 1 with the length of the string connecting each object being of unit 1 as well. What can we observe if we release this system and allow the pendulum system to move around? This project investigates the various properties that can be seen in such a system.
+
+In the first section, we analyse what does the x and z position of the masses look like over time. In addition, we look at the velocity of the masses and the energy of the system itself. We contrasts these properties on different parts of the chain as well. After establishing this baseline, we see how these properties are effected when we change the number of masses in the system, and vary the initial starting point in which the pendulum is released. 
+
+We then look at the "snap" points in the chain, that is, when the chain suddenly excites itself and snaps around in order to see at what moments do we see peaks in energy and what factors influences these moments.
+
+We then look at after a certain period of time, when the system has supposedly stabilises, what does the distribution of the angles of the masses look like? What can we say about the empirical cumulative distribution function and see whether does the Glivenko Cantelli theorem hold by running Kolmogorov Smirnov tests in order to determine the distribution. We additionally look at the moving averages of the velocity and angle of the system to see if there are any notable patterns. Finally, we analyse the return time of the system, that is, the time it takes for the pendulum to swing by its starting state, if it does at all and whether does changing the number of masses influence this.
+
 ## Content
 - Dynamics of a 10-chain system
 - Varying the number of masses in the system
